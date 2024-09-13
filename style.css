@@ -1,0 +1,134 @@
+.aboutme {
+  display: inline-flex;
+  align-items: center;
+  gap: 89px;
+  padding: 96px 0px;
+  position: relative;
+}
+
+.aboutme .about {
+  position: relative;
+  width: 510px;
+  height: 512px;
+}
+
+.aboutme .overlap-group {
+  position: relative;
+  height: 512px;
+}
+
+.aboutme .rectangle {
+  height: 502px;
+  top: 10px;
+  left: 0;
+  border-radius: 24px;
+  border: 16px solid;
+  border-color: #eab308;
+  transform: rotate(180deg);
+  position: absolute;
+  width: 475px;
+}
+
+.aboutme .img {
+  height: 475px;
+  top: 0;
+  left: 35px;
+  object-fit: cover;
+  position: absolute;
+  width: 475px;
+}
+
+.aboutme .frame {
+  flex-direction: column;
+  gap: 32px;
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.aboutme .about-me {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 42px;
+  letter-spacing: 0;
+  line-height: 64px;
+  white-space: nowrap;
+}
+
+.aboutme .text-wrapper {
+  color: #f3f4f6;
+}
+
+.aboutme .span {
+  color: #eab308;
+}
+
+.aboutme .div {
+  flex-direction: column;
+  gap: 40px;
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.aboutme .frame-2 {
+  flex-direction: column;
+  gap: 18px;
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.aboutme .there-are-many {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #6b7280;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.aboutme .passages-oflorem {
+  position: relative;
+  width: fit-content;
+  font-family: "Lexend Deca", Helvetica;
+  font-weight: 400;
+  color: #6b7280;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.aboutme .div-wrapper {
+  gap: 10px;
+  padding: 16px 20px;
+  background-color: #eab308;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.aboutme .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Arvo", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 27px;
+  white-space: nowrap;
+}
